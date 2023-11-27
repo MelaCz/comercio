@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    background-color: #008781 ;
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+    margin: 20px 3px;
+    border-top: 3px double white;
+    border-left: 3px double white;
+    border-right: 3px double white;
+    border-bottom: 3px double white;
+    padding: 2px;
+    }
+
+h1 {
+    color: indianred;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 10px white;
+    text-decoration:double white; 
+}
+
+thead {
+    color: white;
+    background-color: indianred;
+    padding: 200px 20px;
+    margin: 30px 30px;
+    font-size: 20px;
+}
+
+.columnas {
+    color: darkslategrey ;
+    background-color: #fed373;
+    empty-cells: show;
+    font-size: 20px;
+}
+
+tfoot{
+    color: white;
+    background-color: indianred;
+    width: 30px;
+    height: 25px;
+    text-align: end;
+}
+
+footer{
+    color: white;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    background-color:darkgoldenrod;
+    margin: 200px 100px;
+    }
+
+body {
+        background-color:#564576;
+    }
+
+.center {
+    text-align: center !important;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    margin: 100px 100px;
+
+}
+
+.descrip {
+    height: 40px;
+    width: 400px;
+}
+
+.tabla {
+    justify-items: center;
+    align-items: center;
+}
+
+.caract {
+    height: 40px;
+    width: 250px;
+}
+
+.marg-tab {
+    margin: 50px 350px
+}

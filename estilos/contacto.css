@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    background-color: #008781 ;
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+    margin: 20px 3px;
+    border-top: 3px double white;
+    border-left: 3px double white;
+    border-right: 3px double white;
+    border-bottom: 3px double white;
+    padding: 2px;
+    }
+
+.color {
+    color:#F9c80e
+}
+
+form {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    background-color:#564576;
+    }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 800px;
+    width: 300px;
+    height: 250px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 250px;
+    font-size: 100px;
+}
+
+.just-form {
+    display: flex;
+}
+
+.ingreso-dato {
+    border: solid 2px white;
+    padding: 25px;
+    width: 600px;
+    height: 10px;
+    margin: 5px 750px;
+    background-color: indianred;
+    justify-self: center;
+    align-self: center;
+    font-size: 20px;
+}
+
+.boton {
+    display: flex;
+    border: none;
+    margin: 5px 1100px;
+    width: 40px;
+    height: 40px;
+    font-size: 80px;
+}
+
+button :hover {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 200px;
+}
+
+footer {
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    margin: 50px 650px;
+    border-color: solid 10px yellow;
+    background-color: goldenrod;
+
+}
+

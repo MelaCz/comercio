@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    background-color: #008781 ;
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+    margin: 20px 3px;
+    border-top: 3px double white;
+    border-left: 3px double white;
+    border-right: 3px double white;
+    border-bottom: 3px double white;
+    padding: 2px;
+    }
+
+h1 {
+    color: #fe6565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130px;
+    background-color: papayawhip;
+    height: 75px;
+}
+
+h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 100px;
+}
+
+
+h3 {
+color: white;
+background-color: indianred;
+display:inline-flex;
+margin:20px 50px;
+padding: 2px;
+border-bottom: solid white 3px;
+justify-content: center;
+align-content: center;
+}
+
+span {
+color: white;
+background-color: #43b5a0;
+display: inline-flex;
+margin: 3px;
+padding: 5px;
+font-size:15px ;
+border-right: solid white 2px;
+border-bottom: solid white 2px;
+align-content: center;
+justify-content: center;
+}
+
+button {
+    color: white;
+    background-color:#65727c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    
+}
+
+button:hover {
+    color: #65727c;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 200px;
+}
+
+li {
+    color: white;
+    margin: left 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 25px;
+}
+
+body {
+background-color:#564576;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    justify-items: center;
+    margin: 25px;
+    border: solid 8px #43b5a0;
+    }
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+}
+
+.alinea {
+    flex-direction: column;
+}
+
+.centrar {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonitem {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.center {
+    text-align: center !important;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1px;
+}
+
+.section div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+div h4{
+    color: goldenrod;
+    padding: 10px 0;
+    margin: 80px 0 0 0;
+    font-size: 30px;
+}
+
+.li-estilo {
+    color: white;
+    margin: left 20px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 5px;
+    font-size: 25px;
+}
